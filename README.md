@@ -121,3 +121,28 @@ Connected directly to MySQL via MySQL Connector/NET.
 | Table | Top 10 highest risk hospitals |
 
 **DAX Calculated Column:**
+
+```dax
+Performance Category = 
+IF(readmissions[excess_readmission_ratio] < 1, "Better Than National",
+IF(readmissions[excess_readmission_ratio] > 1, "Worse Than National",
+"Same As National"))
+```
+
+
+---
+
+## Key Findings
+
+- **MA, NJ, FL** have the highest average excess readmission ratios nationally
+- **Heart Failure** is the single largest driver of readmissions at 392K+
+- **48% of hospitals** perform worse than the national benchmark
+- **Surgical specialty hospitals** are disproportionately represented among highest-risk facilities
+- **Wyoming CABG** shows the largest gap between predicted and expected readmission rates
+
+---
+
+
+
+
+
