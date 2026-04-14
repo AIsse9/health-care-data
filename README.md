@@ -8,7 +8,7 @@
 
 ## Dashboard Preview
 
-![Healthcare Quality & Readmissions Report](dashboard_preview.png)
+![Healthcare Quality & Readmissions Report](Screenshot 2026-04-13 at 8.26.37 PM.png)
 
 ---
 
