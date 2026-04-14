@@ -1,0 +1,2 @@
+CREATE DATABASE healthcare_readmissions;
+USE healthcare_readmissions;
