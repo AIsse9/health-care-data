@@ -1,1 +1,2 @@
 Built an end-to-end healthcare analytics project using real CMS hospital readmissions data. Wrote a Python ETL script to load 18,000+ records into a normalized MySQL database, then ran SQL analysis to identify which states, hospitals, and conditions have the worst 30-day readmission rates. Dashboard coming in Power BI.
+https://github.com/AIsse9/heath-care-data/blob/main/Screenshot%202026-04-13%20at%208.26.37%E2%80%AFPM.png?raw=true
