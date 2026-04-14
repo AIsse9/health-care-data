@@ -10,8 +10,6 @@
 
 ![Healthcare Quality & Readmissions Report](dashboard_preview.png)
 
-![heath-care-data](Screenshot 2026-04-13 at 8.26.37 PM.png)
-
 ---
 
 ## Project Overview
