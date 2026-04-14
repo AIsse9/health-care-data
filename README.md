@@ -1,15 +1,3 @@
-# Healthcare Quality & Readmissions Analytics
-
-**Author:** Ahmed Isse  
-**Stack:** Python · MySQL · Power BI  
-**Data Source:** CMS Hospital Readmissions Reduction Program (HRRP) — FY 2026  
-
----
-
-## Dashboard Preview
-
-![Healthcare Quality & Readmissions Report](dashboard_preview.png)
-
 ---
 
 # Healthcare Quality & Readmissions Analytics
