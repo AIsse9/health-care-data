@@ -21,6 +21,8 @@ End-to-end healthcare analytics pipeline built on real CMS data. A Python ETL sc
 ---
 
 ## Repository Structure
+
+```
 healthcare-readmissions-analytics/
 ├── load_data.py                  # Python ETL — loads CMS data into MySQL
 ├── schema.sql                    # Database schema and table definitions
@@ -31,7 +33,7 @@ healthcare-readmissions-analytics/
 ├── Q5.sql                        # State + condition predicted vs. expected rate gap
 ├── dashboard_preview.png         # Power BI dashboard screenshot
 └── README.md
-
+```
 ---
 
 ## Database Schema
