@@ -8,7 +8,9 @@
 
 ## Dashboard Preview
 
-[Screenshot 2026-04-13 at 8.26.37 PM.png](https://github.com/AIsse9/heath-care-data/blob/98c3af75bb8fc84d5e9309f72314f5e30438eb8d/Screenshot%202026-04-13%20at%208.26.37%E2%80%AFPM.png)
+![Healthcare Quality & Readmissions Report](dashboard_preview.png)
+
+![heath-care-data](Screenshot 2026-04-13 at 8.26.37 PM.png)
 
 ---
 
