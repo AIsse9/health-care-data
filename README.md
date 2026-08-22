@@ -20,21 +20,17 @@ The data came from CMS's Hospital Readmissions Reduction Program — 18,330 reco
 
 ## Repository Structure
 
-```
 healthcare-readmissions-analytics/
-├── load_data.py                  # Python ETL — loads CMS data into MySQL
+├── ETL.py                        # Python ETL — loads CMS data into MySQL
 ├── schema.sql                    # Database schema and table definitions
 ├── Q1.sql                        # Top 10 states by avg excess readmission ratio
 ├── Q2.sql                        # Readmissions by condition nationally
 ├── Q3.sql                        # Hospital performance vs. national average
 ├── Q4.sql                        # Top 10 worst performing hospitals
 ├── Q5.sql                        # State + condition predicted vs. expected rate gap
-├── dashboard_preview.png         # Power BI dashboard screenshot
+├── Healthcare-readmissions.pbix  # Power BI dashboard file
+├── dashboard_preview.png         # Dashboard screenshot
 └── README.md
-```
-
----
-
 ## Database Schema
 
 The CMS file came as one flat structure so I split it into 3 tables. Nothing fancy, just clean normalization so the queries would actually be readable.
@@ -69,11 +65,11 @@ readmissions (
 
 ## ETL Pipeline
 
-The raw file was a `.numbers` format with `N/A`, `Too Few to Report`, and `NaN` values mixed throughout the numeric columns. Took some work to get it loading cleanly. `load_data.py` handles the parsing, coercion, and insert logic — splits the flat file into the 3 tables and loads with foreign key constraints intact.
+The raw file was a `.numbers` format with `N/A`, `Too Few to Report`, and `NaN` values mixed throughout the numeric columns. Took some work to get it loading cleanly. `ETL.py` handles the parsing, coercion, and insert logic — splits the flat file into the 3 tables and loads with foreign key constraints intact.
 
 ```bash
 pip install numbers-parser mysql-connector-python pandas
-python load_data.py
+python ETL.py
 ```
 
 ---
