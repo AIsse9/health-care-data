@@ -24,6 +24,6 @@ config.py
 .idea/
 *.swp
 
-# Data working files (uncomment if you want to exclude)
+# Data working files
 # *.numbers
 # *.csv
